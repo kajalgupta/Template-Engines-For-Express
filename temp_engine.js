@@ -3,14 +3,6 @@ const app = express();
 const pug = require('pug');
 
 //COMPILE THE SOURCE CODE Properly
-//Read it
-
-const compiledFunction = pug.compileFile('template.pug');
-
-app.set('view engine', 'pug')
-app.get('/', function(req, res) {
-    res.render('index', { title: 'Hey' , message: 'Hello there!'})
-})
 
 console.log(compiledFunction({
     name : 'KAJAL'
