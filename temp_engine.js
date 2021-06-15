@@ -2,7 +2,8 @@ const express = require('express');
 const app = express();
 const pug = require('pug');
 
-//COMPILE THE SOURCE CODE
+//COMPILE THE SOURCE CODE Properly
+//Read it
 
 const compiledFunction = pug.compileFile('template.pug');
 
