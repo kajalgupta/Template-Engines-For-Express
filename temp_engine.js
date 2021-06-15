@@ -16,10 +16,10 @@ console.log(compiledFunction({
 }));
 
 console.log(compiledFunction({
-    name: 'NAINA'
+    name: 'heya'
 }));
 
-console.log(pug.renderFile('template.pug' , {
+console.log(pug.gender('template.pug' , {
     name : 'BELLA'
 }));
 
